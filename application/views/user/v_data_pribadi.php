@@ -12,7 +12,7 @@
                 <div class="card shadow mb-4">
                 <?php foreach($penduduk as $pdk){?>
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Data Pribadi</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Data pribadi</h6>
                     </div>
                     <div class="card-body">
                     <form action="<?php echo base_url().'admin/data_pribadi_update'?>" method="post">
